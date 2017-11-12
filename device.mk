@@ -153,6 +153,7 @@ PRODUCT_PACKAGES += \
 
 # Configstore
 PRODUCT_PACKAGES += \
+    init.safailnet.rc \
     android.hardware.configstore@1.0-service
 
 # Device mapper verity
