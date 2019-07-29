@@ -317,8 +317,6 @@ on post-fs-data
     chmod 0644 /mnt/vendor/persist/flag/multisim.txt
     /* Huaqin add for MULTI SIM by jindaolun at 2018/3/1 end*/
 
-    # Huaqin add for ZQL1650-126 CountryCode by yangzhiyuan at 2018/01/23 end
-
     #create port-bridge log dir
     mkdir /data/vendor/port_bridge 0770 radio radio
     chmod 0770 /data/vendor/port_bridge
