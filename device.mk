@@ -418,6 +418,10 @@ PRODUCT_COPY_FILES += \
 # System properties
 -include $(LOCAL_PATH)/system_prop.mk
 
+# Soong
+PRODUCT_SOONG_NAMESPACES += \
+    device/asus/X00T
+
 # Telephony
 PRODUCT_PACKAGES += \
     telephony-ext
