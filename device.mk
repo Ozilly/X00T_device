@@ -561,5 +561,10 @@ PRODUCT_COPY_FILES += \
 # Zenfone Parts
 PRODUCT_PACKAGES += \
     ZenfoneParts
+    
+# Prebuilts
+PRODUCT_PACKAGES += \
+    Gboard \
+    Messaging
 
 $(call inherit-product, vendor/asus/X00T/X00T-vendor.mk)
