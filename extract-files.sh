@@ -55,8 +55,9 @@ if [ -z "$SRC" ]; then
 fi
 
 # Initialize the helper
-setup_vendor "$DEVICE" "$VENDOR" "$LINEAGE_ROOT" false "$CLEAN_VENDOR"
-
+setup_vendor "${DEVICE}" "${VENDOR}" "${LINEAGE_ROOT}" false "${CLEAN_VENDOR}"
 extract "$MY_DIR"/proprietary-files.txt "$SRC" "$SECTION"
 
-. "$MY_DIR"/setup-makefiles.sh
+"${MY_DIR}/setup-makefiles.sh"
+ patchelf --add-needed camera.sdm660_shim.so "$DEVICE_BLOB_ROOT"/vendor/lib/hw/camera.sdm660.so
+

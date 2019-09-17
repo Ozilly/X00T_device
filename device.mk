@@ -35,6 +35,10 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 # default is nosdcard, S/W button enabled in resource
 PRODUCT_CHARACTERISTICS := nosdcard
 
+# Shims
+PRODUCT_PACKAGES += \
+    camera.sdm660_shim
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.audio.low_latency.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.xml \
@@ -380,6 +384,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     librecovery_updater_X00T
 
+PRODUCT_PACKAGES += \
+    librmnetctl
+
 # RIL
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.2 \
@@ -426,8 +433,8 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     telephony-ext
 
-#PRODUCT_BOOT_JARS += \
-#    telephony-ext
+PRODUCT_BOOT_JARS += \
+    telephony-ext
 
 # Tetheroffload
 PRODUCT_PACKAGES += \
@@ -475,7 +482,7 @@ PRODUCT_PACKAGES += \
 
 # VNDK-SP:
 PRODUCT_PACKAGES += \
-    vndk-sp
+     vndk-sp
 
 # VR
 PRODUCT_PACKAGES += \
