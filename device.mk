@@ -156,11 +156,6 @@ PRODUCT_PACKAGES += \
     init.safailnet.rc \
     android.hardware.configstore@1.0-service
 
-# Device mapper verity
-PRODUCT_SYSTEM_VERITY_PARTITION=/dev/block/bootdevice/by-name/system
-PRODUCT_VENDOR_VERITY_PARTITION=/dev/block/bootdevice/by-name/vendor
-$(call inherit-product, build/target/product/verity.mk)
-
 # Codec2 modules
 PRODUCT_PACKAGES += \
     com.android.media.swcodec \
