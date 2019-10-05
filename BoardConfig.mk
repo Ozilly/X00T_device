@@ -23,7 +23,7 @@
 #
 
 DEVICE_PATH := device/asus/X00T
-
+USE_DEVICE_SPECIFIC_DATA_IPA_CFG_MGR := true
 BOARD_VENDOR := asus
 
 #temp
