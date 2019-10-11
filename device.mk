@@ -358,8 +358,9 @@ PRODUCT_PACKAGES += \
     android.hidl.manager@1.0 \
     android.hidl.manager@1.0_system
 
-#PRODUCT_ENFORCE_RRO_TARGETS := \
-#    framework-res
+#RRO
+PRODUCT_ENFORCE_RRO_TARGETS := \
+    framework-res
 
 # Power
 PRODUCT_PACKAGES += \
