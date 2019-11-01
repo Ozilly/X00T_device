@@ -56,8 +56,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.expose.aux=1 \
     persist.vendor.camera.preview.ubwc=0 \
     vendor.camera.aux.packagelist=org.codeaurora.snapcam,org.lineageos.snap \
-    vendor.camera.hal1.packagelist=com.whatsapp,com.instagram.android
-
+	vendor.camera.hal1.packagelist=com.whatsapp,com.skype.raider,ru.sberbankmobile,com.instagram.android
 # Codec2 switch
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.media.codec2=2
