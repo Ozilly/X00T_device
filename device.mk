@@ -414,6 +414,7 @@ PRODUCT_PACKAGES += \
     move_time_data.sh \
     move_wifi_data.sh \
     fix_baseband.sh \
+    hack_attest.sh \
     fstab.qcom \
     init.msm.usb.configfs.rc \
     init.qcom.rc \
@@ -467,6 +468,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
+
+# sqlite3
+PRODUCT_PACKAGES += \
+    sqlite3
 
 # System properties
 -include $(LOCAL_PATH)/system_prop.mk
