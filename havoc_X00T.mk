@@ -34,18 +34,20 @@ PRODUCT_BRAND := asus
 PRODUCT_DEVICE := X00T
 PRODUCT_MANUFACTURER := asus
 PRODUCT_NAME := havoc_X00T
-PRODUCT_MODEL := ZenFone Max Pro M1
+PRODUCT_MODEL := ZB602KL
 PRODUCT_GMS_CLIENTID_BASE := android-asus
 
 TARGET_VENDOR := asus
 TARGET_VENDOR_PRODUCT_NAME := X00T
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="walleye-user 10 QP1A.191005.007.A1 5908163 release-keys"
 
 # Havoc Maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.havoc.maintainer=Ozilly
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := google/walleye/walleye:10/QP1A.191005.007.A1/5908163:user/release-keys
+BUILD_FINGERPRINT := LeEco/ZL1_NA/le_zl1:6.0.1/WEXNAOP5802101261S/letv01261206:user/release-keys
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_DEVICE=ASUS_X00T_6 \
+    PRODUCT_NAME=RU_X00TD \
+    PRIVATE_BUILD_DESC="sdm660_64-user 8.1.0 OPM1 1309 release-keys"
