@@ -16,6 +16,12 @@
     <string name="ambient_display_title">Активный дисплей</string>
     <string name="ambient_display_notifications">При новых уведомлениях</string>
     <string name="ambient_display_summary">Включать экран, когда приходит уведомление</string>
+     <!-- Ambient display battery percentage -->
+    <string name="ambient_battery_percent_title">Уровень заряда аккумулятора</string>
+    <string name="ambient_battery_percent_summary">Включить отображение процентов заряда на Активном экране</string>
+    <!-- Ambient music ticker -->
+    <string name="force_ambient_for_media_title">Текущий трек</string>
+    <string name="force_ambient_for_media_summary">Отображение информации о воспроизводимой музыкальной дорожке на  Активном экране</string>
     <!-- Tilt sensor -->
     <string name="tilt_sensor_title">Датчик наклона</string>
     <string name="pick_up_title">Поднять, чтобы проверить уведомления</string>

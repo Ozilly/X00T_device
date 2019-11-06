@@ -276,4 +276,13 @@
     <!-- Brightness control -->
     <string name="status_bar_toggle_brightness">Управление яркостью</string>
     <string name="status_bar_toggle_brightness_summary">Регулировать яркость экрана движением пальца по строке состояния</string>
+    <!-- Quick settings brightness slider -->
+    <string name="qs_brightness_slider_title">Позиция слайдера яркости</string>
+    <string name="qs_brightness_slider_hide">Скрыт</string>
+    <string name="qs_brightness_slider_top">Вверху</string>
+    <string name="qs_brightness_slider_bottom">Внизу</string>
+
+    <!-- Quick settings brightness icon -->
+    <string name="brightness_icon_title">Значок автояркости</string>
+    <string name="brightness_icon_summary">Показать переключатель для адаптивной яркости рядом с ползунком</string>
 </resources>
